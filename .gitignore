@@ -1,0 +1,7 @@
+# Exclude CodeBlocks out directories.
+bin/
+obj/
+
+# Exclude files backup.
+*.kate-swp
+*~

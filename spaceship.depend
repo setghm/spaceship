@@ -1,0 +1,79 @@
+# depslib dependency file v1.0
+1702869595 source:/home/pcuser/Documents/C++/spaceship/terminal.cpp
+	"terminal.h"
+	<cstdio>
+	<sys/fcntl.h>
+	<sys/ioctl.h>
+	<unistd.h>
+
+1702870561 /home/pcuser/Documents/C++/spaceship/terminal.h
+	<termios.h>
+	<cstring>
+	<string>
+
+1702869471 source:/home/pcuser/Documents/C++/spaceship/main.cpp
+	"game.h"
+
+1702870680 source:/home/pcuser/Documents/C++/spaceship/game.cpp
+	"game.h"
+	"entity.h"
+	<cstdio>
+	<unistd.h>
+	<ctime>
+	<cstdlib>
+
+1702868455 /home/pcuser/Documents/C++/spaceship/game.h
+	"terminal.h"
+	"player.h"
+	"asteroids.h"
+	<vector>
+	<chrono>
+
+1702870440 /home/pcuser/Documents/C++/spaceship/player.h
+	"terminal.h"
+	"string_sprite.h"
+	"asteroids.h"
+	<vector>
+
+1702940930 source:/home/pcuser/Documents/C++/spaceship/player.cpp
+	"player.h"
+	"projectile.h"
+	"entity.h"
+	<algorithm>
+
+1702852923 /home/pcuser/Documents/C++/spaceship/string_sprite.h
+	"entity.h"
+	"terminal.h"
+	<string>
+
+1702852964 source:/home/pcuser/Documents/C++/spaceship/string_sprite.cpp
+	"string_sprite.h"
+
+1702855949 source:/home/pcuser/Documents/C++/spaceship/projectile.cpp
+	"projectile.h"
+
+1702850047 /home/pcuser/Documents/C++/spaceship/projectile.h
+	"string_sprite.h"
+
+1702852571 /home/pcuser/Documents/C++/spaceship/entity.h
+	"terminal.h"
+	<vector>
+
+1702852975 source:/home/pcuser/Documents/C++/spaceship/entity.cpp
+	"entity.h"
+
+1702867150 source:/home/pcuser/Documents/C++/spaceship/asteroids.cpp
+	"asteroids.h"
+	<string>
+	<cstdlib>
+	<ctime>
+	<algorithm>
+
+1702867107 /home/pcuser/Documents/C++/spaceship/asteroids.h
+	"string_sprite.h"
+	"entity.h"
+
+1702873456 /home/pcuser/Documents/C++/spaceship/sound.h
+	<thread>
+	<vector>
+
